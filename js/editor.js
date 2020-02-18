@@ -15,5 +15,6 @@ let editor = null;
         });
 
         editor.addEventListener('change', () => count.update());
+        count.update();
     };
 })();
