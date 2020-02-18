@@ -13,5 +13,7 @@ let editor = null;
             enableSnippets: true,
             enableLiveAutocompletion: true
         });
+
+        editor.addEventListener('change', () => count.update());
     };
 })();
